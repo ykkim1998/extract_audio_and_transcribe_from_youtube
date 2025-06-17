@@ -1,0 +1,13 @@
+[project]
+name = "extract-audio-and-transcribe"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ffmpeg>=1.4",
+    "openai-whisper>=20240930",
+    "tqdm>=4.67.1",
+    "wheel>=0.45.1",
+    "yt-dlp>=2025.5.22",
+]
